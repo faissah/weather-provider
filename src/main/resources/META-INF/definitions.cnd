@@ -5,8 +5,11 @@
  - name (string)
 
 
-[jnt:city] > jnt:content, jmix:structuredContent, mix:title
- - name (string)
+[jnt:city] > jnt:content, jmix:editorialContent, jmix:structuredContent, mix:title
  - city (string)
  - state (string)
  - country (string)
+ - temperature_string (string)
+ - wind_string (string)
+ - precip_today_string (string)
+ - relative_humidity (string)
